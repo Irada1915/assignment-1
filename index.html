@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- METADATA GOES HERE -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="style.css" rel="stylesheet">
+
+    <!-- BOOTSTRAP 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="script.js?v=0125"></script>
+
+</head>
+
+
+<body>
+    <div class="container py - 5">
+        <div class="row gx-3">
+        </div>
+        <div class="row content-section">
+        <div class="col-12 col-md-6 offset-md-3">
+        <h3 class="article-content title-blue">
+            Tracking my screen time
+        </h3>
+        <p class="article-content">
+            I used the Screen Time function on my phone to track how much time I spend on different apps and websites each week. This data helps me understand my digital habits and whether I need to make adjustments to my screen time.
+        </p>
+        <h3>Screen time by days of the week</h3>
+        <canvas id="myChart3"></canvas>
+    </div>
+    </div>
+        <div class="row content-section">
+        <div class="col-12 col-md-6 offset-md-3">
+        <p class="article-content">
+            Peak device usage occurs on weekends, especially Saturday, while Tuesday shows minimal activity. This suggests more active device use during free time.        </p>
+    </div>
+    </div>
+        <div class="row content-section">
+        <div class="col-12 col-md-6 offset-md-3">
+        <h3 class="article-content title-blue">
+            Screen time distribution by categories
+        </h3>
+        <canvas id="myChart2" width="400" height="400"></canvas>
+    </div>
+    </div>
+    <div class="row content-section">
+    <div class="col-12 col-md-6 offset-md-3">
+        <p class="article-content">
+            The majority of screen time is spent on social networks, which may indicate active communication and content consumption. Entertainment takes the second-largest share, while productive tasks make up a smaller portion.
+        </p>
+    </div>
+    </div>
+    <div class="row content-section">
+    <div class="col-12 col-md-6 offset-md-3">
+        <h3 class="article-content title-blue">
+            Hourly Activity on January 21
+        </h3>
+        <canvas id="myChart"></canvas>
+    </div>
+    </div>
+    <div class="row content-section">
+    <div class="col-12 col-md-6 offset-md-3">
+        <p class="article-content">
+            There are three peak periods of device usage (morning, noon, and evening), with activity decreasing between them. This may indicate regular patterns of device checking at specific times of the day.        </p>
+    </div>
+    </div>
+    <div class="row content-section">
+    <div class="col-12 col-md-6 offset-md-3">
+        <p class="article-content">
+            Overall, this data highlights the importance of mindful screen time management, as excessive use of social media and entertainment apps can impact productivity, sleep, and overall well-being. It may be beneficial for me to reevaluate phone usage habits by implementing limits or adopting a more balanced approach.
+        </p>
+    </div>
+    </div>
+        </div>
+    </div>
+    </div>
+
+</body>
